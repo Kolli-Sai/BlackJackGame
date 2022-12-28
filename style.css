@@ -22,13 +22,13 @@ body {
 .right {
     right: 0;
     width: 60%;
-    background-color: #ffdb5c;
+    background-color: rgba(5, 84, 243, 0.189);
 }
 
 .left {
     left: 0;
     width: 40%;
-    background-color: #46515a;
+    background-color: rgb(201, 214, 116);
 }
 
 /* If you want the content centered horizontally and vertically */
@@ -53,7 +53,7 @@ body {
     font-family:sans-serif;
     font-size: 0.9rem;
     font-weight: 700;
-    color: #ffdb5c;
+    color: #000000;
     text-align: left;
 }
 
@@ -65,7 +65,7 @@ li{
     font-family:sans-serif;
     font-size: 0.7rem;
     font-weight: 700;
-    color: #ffdb5c;
+    color: #252524;
     text-align: left;
 }
 
