@@ -39,9 +39,10 @@ class Deck {
    * Hint: use buildCards in this method
    */
   reset() {
-      // write your code here
+    this.deck = [];
+    this.deck = buildCards(!0);
 
-  } //End of reset()
+  } 
 
 
   /**
