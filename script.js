@@ -87,6 +87,7 @@ class Deck {
    * @returns {Number} Number of cards in the Deck
    */
   length() {
+    return this.deck.length;
     
       // write your code here
 
