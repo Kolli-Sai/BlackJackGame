@@ -76,6 +76,7 @@ class Deck {
    * @returns {Boolean} True or False 
    */
   isEmpty() {
+    return 0 == this.deck.length;
     
       // write your code here
 
