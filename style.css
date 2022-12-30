@@ -113,8 +113,8 @@ button {
     text-align: center;
     margin: 20px;
     border-radius: 5px;
-    background-color: #46515a;
-    color: #ffdb5c;
+    background-color: #000000;
+    color: #ff0000;
     font-size: large;
     font-family: sans-serif;
 }
