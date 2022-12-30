@@ -65,6 +65,7 @@ class Deck {
    * @returns {String} A Card from the deck of cards
    */
   deal() {
+    return this.deck.pop();
     
       // write your code here
 
