@@ -16,10 +16,10 @@ function buildCards(asArray=true){
   }
 
 
-  if(!asArray){
-      return packObj;
+  if(asArray){
+      return packArr;
   }
-  return packArr;
+  return packObj;
 }
 
 /**
@@ -48,6 +48,14 @@ class Deck {
    * Shuffling the cards
    */
   shuffle() {
+    var x,y,z;
+    z = this.deck.length
+    for (var a = 0; a < z; a++) {
+        y = Math.floor(Math.random() * z),
+        x = this.deck[a];
+        this.deck[a] = this.deck[y];
+        this.deck[y] = x;
+      }
       // write your code here
       
   } //End of shuffle()
@@ -57,6 +65,7 @@ class Deck {
    * @returns {String} A Card from the deck of cards
    */
   deal() {
+    
       // write your code here
 
   } //End of deal()
@@ -66,6 +75,7 @@ class Deck {
    * @returns {Boolean} True or False 
    */
   isEmpty() {
+    
       // write your code here
 
   } //End of isEmpty()
@@ -75,6 +85,7 @@ class Deck {
    * @returns {Number} Number of cards in the Deck
    */
   length() {
+    
       // write your code here
 
   } //End of length()
