@@ -112,9 +112,9 @@ button {
     height: 40px;
     text-align: center;
     margin: 20px;
-    border-radius: 5px;
+    border-radius: 20px;
     background-color: #000000;
-    color: #ff0000;
-    font-size: large;
+    color: rgb(255,255,255);
+    font-size:medium;
     font-family: sans-serif;
 }
