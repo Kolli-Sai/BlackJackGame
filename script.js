@@ -227,7 +227,7 @@ function stand() {
   ).then(() => {
     location.reload();
   });
-  // flip Dealer cards and compare
+  // flip Dealer cards   and compare
 
   // write your code here
 
